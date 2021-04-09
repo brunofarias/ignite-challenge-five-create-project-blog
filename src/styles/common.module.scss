@@ -1,1 +1,39 @@
 // TODO
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.logo {
+  margin: 5rem 0 3.5rem;
+}
+
+.postInfo {
+  display: flex;
+  align-items: center;
+  color: var(--gray-700);
+
+  span {
+    margin-left: 0.625rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+
+  time {
+    display: flex;
+    align-items: center;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    margin-left: 1.75rem;
+  }
+}
+
+.loading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--pink-500);
+}

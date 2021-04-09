@@ -1,1 +1,43 @@
-// TODO
+.post {
+  margin-bottom: 5rem;
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+
+  h1 {
+    margin-bottom: 1.563rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--white-500);
+    transition: color 0.2s;
+  }
+
+  .postContent {
+    margin-top: 4.125rem;
+    font-size: 1.125rem;
+    color: var(--gray-700);
+
+    h2 {
+      margin-bottom: 3rem;
+      font-size: 2.25rem;
+      color: var(--white-500);
+    }
+
+    p,
+    ul {
+      margin: 1.5rem 0;
+      line-height: 1.563rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+
+      li {
+        margin: 0.5rem 0;
+      }
+    }
+  }
+}
