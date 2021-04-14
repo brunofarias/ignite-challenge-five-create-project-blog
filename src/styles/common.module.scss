@@ -10,25 +10,24 @@
 }
 
 .postInfo {
-  display: flex;
-  align-items: center;
   color: var(--gray-700);
+  font-size: 0.875rem;
+  font-weight: 400;
 
   span {
-    margin-left: 0.625rem;
-    font-size: 0.875rem;
-    font-weight: 400;
+    margin-left: 1.5rem;
+
+    &.lastEdit {
+      display: block;
+      margin: 1.125rem 0 0;
+      font-style: italic;
+    }
   }
 
-  time {
-    display: flex;
-    align-items: center;
-  }
-
-  div {
-    display: flex;
-    align-items: center;
-    margin-left: 1.75rem;
+  svg {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 0.625rem;
   }
 }
 
